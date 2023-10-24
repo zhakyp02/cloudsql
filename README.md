@@ -304,7 +304,7 @@ Add these stages to your GitLab pipeline.
 
 .gitlab-ci.yml
 
-```
+```yml
 image:
 name: hashicorp/terraform:light
 entrypoint: - '/usr/bin/env' - 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
