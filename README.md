@@ -303,7 +303,7 @@ variable "region2" {
 
 ```
 
-Add these stages to your GitLab pipeline.
++ Add these stages to your GitLab pipeline.
 
 .gitlab-ci.yml
 
