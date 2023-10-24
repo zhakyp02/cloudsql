@@ -1,7 +1,7 @@
 # Managing Cloud SQL failover in Terrafrom
 
-You need to add random_id and outputs to your master and read-replica in the child module.
-You can also remove all zones in both the child and root modules.
++ You need to add random_id and outputs to your master and read-replica in the child module.
++ You can also remove all zones in both the child and root modules.
 
 outputs.tf
 
@@ -234,7 +234,7 @@ output "replica_region" {
 
 ```
 
-root module tfvars and main.tf
++ root module tfvars and main.tf
 
 terraform.tfvar
 
