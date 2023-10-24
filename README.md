@@ -236,7 +236,7 @@ output "replica_region" {
 
 + root module tfvars and main.tf
 
-terraform.tfvar
+terraform.tfvars
 
 ```hcl
 region2          = "us-central1"
